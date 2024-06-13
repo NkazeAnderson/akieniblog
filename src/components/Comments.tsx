@@ -3,7 +3,7 @@ import React from "react";
 import IconButton from "./IconButton";
 import Avatar from "./Avatar";
 
-function Comment({
+export function Comment({
   image,
   author,
   message,

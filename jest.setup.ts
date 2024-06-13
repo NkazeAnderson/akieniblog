@@ -1,0 +1,1 @@
+testEnvironment: "./test.environment.js";

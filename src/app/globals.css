@@ -20,7 +20,13 @@
     @apply font-bold text-xl overflow-hidden;
   }
   img {
-    @apply z-20;
+    @apply z-0;
+  }
+}
+
+@layer components {
+  .avatar {
+    @apply rounded-full object-cover;
   }
 }
 

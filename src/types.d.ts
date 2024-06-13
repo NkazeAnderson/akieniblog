@@ -13,3 +13,5 @@ type commentT = {
   email: string;
   body: string;
 };
+
+type newPostBodyT = Record<string, string | number | boolean>;

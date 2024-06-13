@@ -4,13 +4,7 @@ import React from "react";
 function Avatar({ path }: { path: string }) {
   return (
     <div className="size-[60px] relative">
-      <Image
-        className="rounded-full"
-        fill
-        objectFit="cover"
-        src={path}
-        alt="avatar"
-      />
+      <Image className="avatar" fill src={path} alt="avatar" />
     </div>
   );
 }
