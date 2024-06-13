@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import React from "react";
 import NavLink from "./NavLink";
 import Button from "./Button";
-import { printDone } from "@/actions";
 
 function NavSideBar() {
   return (
